@@ -1,0 +1,186 @@
+:root:has(.nav-icon input:checked){
+    --main-color:#C17E1F;
+    background-color: #252525;
+}
+
+
+body:has(.nav-icon input:checked) .nav{
+    background-color: #0009;
+}
+
+body:has(.nav-icon input:checked) #home,
+body:has(.nav-icon input:checked) #gallery{
+    background-color: #252525; 
+}
+
+body:has(.nav-icon input:checked) #chefs,
+body:has(.nav-icon input:checked) #contact{
+    background-color: #202020;
+}
+
+
+body:has(.nav-icon input:checked) .nav-logo{
+    color: white;
+}
+
+body:has(.nav-icon input:checked) ul li{
+    color: #9f9f9f;
+}
+
+body:not(:has(:target)):has(.nav-icon input:checked) .home-link,
+body:has(#home:target):has(.nav-icon input:checked) .home-link,
+body:has(#chefs:target):has(.nav-icon input:checked) .chefs-link,
+body:has(#gallery:target):has(.nav-icon input:checked) .gallery-link,
+body:has(#contact:target):has(.nav-icon input:checked) .contact-link{
+    color: #fff;   
+}
+
+
+body:not(:has(:target)) .home-link::before,
+body:has(#home:target) .home-link::before,
+body:has(#chefs:target) .chefs-link::before,
+body:has(#gallery:target) .gallery-link::before,
+body:has(#contact:target) .contact-link::before
+{
+    width: 100%;
+}
+
+body:has(.nav-icon input:checked) .nav ul li:hover{
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) .nav .nav-icon .light{
+    display: block;
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) .nav .nav-icon .dark{
+    display: none;
+}
+
+body:has(.nav-icon input:checked) .nav .menu-icon{
+    color: #fff;
+}
+
+
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn a,
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn .brdr i,
+body:has(.nav-icon input:checked) #home .container .home-caption h2,
+body:has(.nav-icon input:checked) #home .container .home-caption p
+{
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn .brdr::after{
+    background-color: black;
+}
+
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn button{
+    color: black;
+}
+
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn button:hover{
+    background-color: #D78C23;
+}
+
+
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn .layer:hover i{
+    color: #D78C23;
+}
+
+
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn .layer:hover a{
+    color: #D78C23;
+}
+
+body:has(.nav-icon input:checked) #home .container .home-caption .home-btn .layer:hover .brdr{
+    background-image: linear-gradient(90deg,#D78C23 0% 50%,transparent 50% 100%);
+
+}
+
+
+
+body:has(.nav-icon input:checked) #chefs .container h2{
+    color: #9f9f9f;
+}
+
+body:has(.nav-icon input:checked) #chefs .container p{
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) #chefs .container .chefs-item{
+    background-color: #171717;
+}
+
+body:has(.nav-icon input:checked) #chefs .container .chefs-item .chefs-img::before{
+    background-image: url(../images/team-shape-dark.svg);
+}
+
+body:has(.nav-icon input:checked) #chefs .container .chefs-item .chefs-text h3{
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) #chefs .container .chefs-item .chefs-text span,
+body:has(.nav-icon input:checked) #chefs .container .chefs-item .chefs-text p{
+    color: #9f9f9f;
+}
+
+body:has(.nav-icon input:checked) #gallery .container h2{
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) #gallery .container p{
+    color: #9f9f9f;
+}
+
+body:has(.nav-icon input:checked) #contact .container h2{
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) #contact .container p{
+    color: #9f9f9f;
+}
+
+body:has(.nav-icon input:checked) #contact .container .contact-content{
+    background-color: #0D0D0D;
+}
+
+body:has(.nav-icon input:checked) #contact .container .contact-content .address {
+    border-bottom: 16px solid #202020;
+    border-right: 8px solid #202020;
+
+}
+body:has(.nav-icon input:checked) #contact .container .contact-content .email {
+    border-bottom: 16px solid #202020;
+    border-left: 8px solid #202020;
+
+}
+
+body:has(.nav-icon input:checked) #contact .container .contact-content .call {
+    border-right: 8px solid #202020;
+
+}
+
+body:has(.nav-icon input:checked) #contact .container .contact-content .opening {
+    border-left: 8px solid #202020;
+
+}
+
+body:has(.nav-icon input:checked) #contact .container .contact-form {
+    background-color:hsl(0deg 100% 0%);
+    box-shadow: 0 0 1.875rem #00000014;
+
+}
+body:has(.nav-icon input:checked) #contact .container .contact-content span,
+body:has(.nav-icon input:checked) #contact .container .contact-content p {
+    color: #fff;
+}
+
+body:has(.nav-icon input:checked) #contact .container .contact-form button:hover {
+    background-color: #D78C23;
+}
+
+body:has(.nav-icon input:checked) .footer .container .footer-content .footer-subscribe button:hover {
+    background-color: #D78C23;
+}
+

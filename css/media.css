@@ -1,0 +1,335 @@
+
+/*  start media of header */
+
+@media (max-width: 1199.98px) { 
+    .nav .container{
+        width: 75%;
+
+    }
+
+    .nav .menu-icon{
+        display: block;
+    }
+
+
+    .nav ul{
+        transform: translateX(100%);
+        flex-direction: column;
+        margin-left: auto;
+        position: absolute;
+        width: 350px;
+        top:0px;
+        right: 0px;
+        background-color: #fff;
+        height: 100%;
+        padding-inline: 10px;
+    }
+    
+    .nav ul li{
+        padding-block: 15px;
+
+    }
+
+
+    .nav ul li.close-icon{
+        display: block;
+        text-align: right;
+    }
+
+
+    .nav ul li.close-icon a{
+        font-size: 25px;
+    }
+
+    .nav ul a::before{
+        display: none;
+    }
+    .nav .nav-icon{
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    #home{
+        margin-top: 70px;
+        padding-top: 50px;
+    }
+
+
+}
+
+
+@media (max-width: 991.98px) { 
+    #home .container{
+        flex-direction: column;
+        width: 75%;
+    }
+    #home .container .home-caption {
+        width: 60%;
+        order:1;
+        text-align: center;
+    }
+    #home .container .home-img{
+        width: 90%;
+
+    }
+    #home .container .home-img img{
+        width: 100%;
+    }
+    #home .container .home-caption .home-btn{
+    justify-content: center;
+    }
+
+    #home .container .home-caption .home-btn button{
+        border-radius: 100vh;
+    }
+
+}
+
+
+@media (max-width: 767.98px) { 
+    #home .container .home-img{
+        width: 80%;
+
+    }
+    #home .container .home-img img{
+        width: 100%;
+    } 
+    #home .container .home-caption {
+        width: 80%;
+        order:1;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 581.98px) {
+    #home .container .home-caption .home-btn{
+        flex-direction: column;
+    }
+
+    #home .container .home-caption .home-btn button{
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 490px) { 
+    #home .container .home-caption {
+        width: 100%;
+        order:1;
+        text-align: center;
+    }
+}
+
+
+/*  end media of header */
+
+/*  start media of chefs */
+
+
+
+@media (max-width: 1199.98px) {
+
+    #chefs .container{
+        width: 75%;
+    }
+
+    #chefs .container .chefs-item {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    #chefs .container .chefs-content{ 
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+  }
+
+
+@media (max-width: 767.98px) { 
+
+    #chefs .container .chefs-item {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    #chefs .container .chefs-content{ 
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+
+ }
+/*  start media of chefs */
+
+/*  start media of gallery */
+
+
+
+@media (max-width: 1199.98px) { 
+    #gallery .container{
+        width: 75%;
+      
+    }
+ }
+
+@media (max-width: 991.98px) { 
+    #gallery .container .gallery-img{
+        column-count: 2;
+        column-width: 50%;
+    }
+   
+ }
+
+@media (max-width: 767.98px) { 
+    #gallery .container .gallery-img{
+        column-count: 1;
+        column-width: 100%;
+    }
+ }
+
+/*  end media of gallery */
+
+/*  start media of contacts */
+
+
+
+
+@media (max-width: 1199.98px) {  
+    #contact .container{
+        width: 75%;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    #contact .container .contact-form .form-content{
+        flex-wrap: wrap;
+    }
+
+    #contact .container .contact-form .form-content .name , 
+    #contact .container .contact-form .form-content .email{
+        width: 100%;
+    }
+
+    #contact .container .contact-form .form-content .name {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    #contact .container .contact-form .form-content .email{
+      padding-left: 0px;  
+    }
+
+
+ }
+
+@media (max-width: 903px) { 
+    #contact .container .contact-content .address,
+    #contact .container .contact-content .email,
+    #contact .container .contact-content .call,
+    #contact .container .contact-content .opening{
+        width: 100%;
+    }
+
+    #contact .container .contact-content .address,
+    #contact .container .contact-content .call{
+       border-right: none;
+
+    }
+
+    #contact .container .contact-content .email,
+    #contact .container .contact-content .opening{
+       border-left: none;
+    }
+
+    #contact .container .contact-content .call{
+        border-bottom: 16px solid #fff;
+    }
+
+
+ }
+
+ /*  end media of contacts */
+
+
+/*  start media of footer */
+
+@media (max-width: 1399.98px) {  }
+
+
+@media (max-width: 1199.98px) {
+
+    .footer .container .footer-logo,
+    .footer .container .footer-contact{
+        width: 49%;
+        justify-content: space-between;
+       
+    }
+    .footer .container .footer-content{
+        order:1;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 991.98px) { 
+    .footer .container{
+        width: 75%;
+    } 
+
+}
+
+@media (max-width: 767.98px) { 
+    .footer .container .footer-content,
+    .footer .container .footer-logo,
+    .footer .container .footer-contact{
+        width: 100%;
+    } 
+
+    .footer .container .footer-contact{
+        order: 1;
+    }
+
+    .footer .container .footer-content .links ul{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .footer .container .footer-contact{
+        padding-top: 20;
+    }
+
+ }
+
+@media (max-width: 575.98px) {  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
